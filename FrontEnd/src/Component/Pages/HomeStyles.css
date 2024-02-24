@@ -1,0 +1,56 @@
+/* HomeStyles.css */
+
+/* Styling for the main container */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  /* Styling for the heading */
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the card container */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Styling for each card */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Styling for the card title */
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the card content */
+  .card-content {
+    color: #555;
+  }
+  
+  /* Styling for the card footer */
+  .card-footer {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  /* Styling for the slider container */
+  .slider-container {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+  }
+  

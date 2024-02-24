@@ -1,0 +1,61 @@
+.profile-page {
+    font-family: Arial, sans-serif;
+    background-color: #b8aaaa;
+    padding: 20px;
+}
+
+.profile-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-color: #d9e8f8;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.profile-image {
+    float: right;
+    margin-right: 18px;
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+}
+
+.profile-details {
+    margin-left: 30px;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.update-details-card, .update-address-card, .update-profile-picture-card, .change-password-card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0.1, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: solid;
+    border-color: rgb(218, 215, 215);
+    border-width: 0.1px;
+
+}
+
+.login-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

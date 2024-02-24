@@ -1,0 +1,39 @@
+.HomeContainer {
+    position: relative; /* Ensure the container is positioned */
+    padding: px;
+  }
+  
+  .HomeContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    /* background-image: url("./HOMEBG.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px); /* Adjust the blur amount as needed */
+    z-index: -1; /* Place the blurred layer behind the content */
+  }
+  
+  .Vendor:hover {
+    transform: scale(1.05);
+  }
+
+  .map{
+    border-radius: 05%;
+    
+    display: flex;
+  }
+  
+  .location{
+    margin-left: 50px;
+  }
+  .location1{
+    margin-top: 80px;
+  }
+
+  .contact{
+    display: flex;
+  }

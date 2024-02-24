@@ -1,0 +1,9 @@
+body{
+    background-image: url(./LOGINBG.jpg);
+    background-size: cover;
+}
+span.error-message{
+    margin: 0;
+    padding: 0;
+}
+ 

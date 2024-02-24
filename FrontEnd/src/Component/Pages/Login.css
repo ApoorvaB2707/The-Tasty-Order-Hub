@@ -1,0 +1,121 @@
+
+
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./LOGINBG.jpg);
+    background-size: cover;
+}
+
+.login-container {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px 60px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.login-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-divider {
+    border: none;
+    border-top: 1px solid #dcdde1;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.show-password {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+}
+
+.btn-secondary {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background: #c0392b;
+}
+
+.footer-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #2980b9;
+}
+
+.ShPw{
+    margin-left: 05px;
+}
